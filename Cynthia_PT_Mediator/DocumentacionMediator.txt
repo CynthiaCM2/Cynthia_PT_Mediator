@@ -1,0 +1,14 @@
+﻿1.- Nombre del proyecto
+Mediator
+2.- Para que se utiliza
+Para dar cambios al código
+3.- La problematica que soluciona
+No modificar los códigos que pueden hacer colapsar estos mismos
+4.- Cuando debe ser utilizada
+Cuando se hacen mejoras y cambios al código extensas
+5.- Como se crea el proyecto
+Se crea la interfaz que sera la funcion de recibir mensajes entre usuarios
+Se crea una clase abstracta que tendra los objetos de comunicacion de enviar, recibir
+Se creara otra clase que sera el mediador de los usuarios que agregara los usuarios, la funcion de recibir los mensajes
+Se crearan las clases de los usuarios en este caso Admin y User, y se les agrega los console.writeline con los mensajes que enviaran/recibiran
+En la clase Program se insertan los objetos de las funciones, se corre el codigo y se visualizaran los mensajes insertados
